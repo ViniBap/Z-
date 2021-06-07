@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    Mercearia do Zé
+  </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2? family = Pattaya & display = swap" rel="folha de estilo ">
+</head>
+
+
+<body id="pagina">
+  <header>
+    <h1>Mercearia do zé</h1>
+    <div class="subtitulo">
+      <h2>O lugar de comprar barato</h2>
+    </div>
+  </header>
+
+  <nav>
+
+    <ul>
+      <li><a href="#1" class="ativo">Home</a></li>
+      <li><a href="#2">Sobre</a></li>
+      <li><a href="#3">Serviços</a></li>
+      <li><a href="#4">contato</a></li>
+      <li><a href="#5">login</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+
+    <section>
+      <div class="home">
+        <h2>A mercearia do dia dia<h2>
+            <style>
+              body {
+                font-family: Copperplate, Papyrus, fantasy;
+              }
+            </style>
+            <div class="imagem1">
+              <img src="IMG/1.jpg" alt="" style="width:500px;height;200px">
+            </div>
+            <div class="txtimagrm1">
+              <p>Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Copo furadis é disculpa
+                de bebadis, arcu quam euismod magna. Leite de capivaris, leite de mula manquis sem cabeça. Mais vale um
+                bebadis conhecidiss, que um alcoolatra anonimis.</p>
+            </div>
+            <br>
+            <div class="sobre">
+              <h2>Sobre</h2>
+              <P>Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Suco de
+                cevadiss deixa as pessoas mais interessantis. Quem num gosta di mé, boa gentis num é. Praesent malesuada
+                urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.</p>
+            </div>
+      </div>
+
+      <div class="serviços">
+        <h2>Serviços<h2>
+            <div class="equipeimg">
+              <img src="IMG/feirante.jpg" alt="" style="width:500px;height;200px">
+            </div>
+            <p>Mussum Ipsum, cacilds vidis litro abertis. Detraxit consequat et quo num tendi nada. Copo furadis é
+              disculpa de bebadis, arcu quam euismod magna. A ordem dos tratores não altera o pão duris. Admodum
+              accumsan disputationi eu sit. Vide electram sadipscing et per.</p>
+      </div>
+    </section>
+    <aside>
+      <div class="login">
+
+        <div class="loginCadastro">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <style>
+          body {font-family: Arial, Helvetica, sans-serif;}
+          
+          /* Full-width input fields */
+          input[type=text], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+          }
+          
+          /* Set a style for all buttons */
+          button {
+            background-color: #04AA6D;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+          }
+          
+          button:hover {
+            opacity: 0.8;
+          }
+          
+          /* Extra styles for the cancel button */
+          .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #f44336;
+          }
+          
+          /* Center the image and position the close button */
+          .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+            position: relative;
+          }
+          
+          img.avatar {
+            width: 40%;
+            border-radius: 50%;
+          }
+          
+          .container {
+            padding: 16px;
+          }
+          
+          span.psw {
+            float: right;
+            padding-top: 16px;
+          }
+          
+          /* The Modal (background) */
+          .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+            padding-top: 60px;
+          }
+          
+          /* Modal Content/Box */
+          .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+          }
+          
+          /* The Close Button (x) */
+          .close {
+            position: absolute;
+            right: 25px;
+            top: 0;
+            color: #000;
+            font-size: 35px;
+            font-weight: bold;
+          }
+          
+          .close:hover,
+          .close:focus {
+            color: red;
+            cursor: pointer;
+          }
+          
+          /* Add Zoom Animation */
+          .animate {
+            -webkit-animation: animatezoom 0.6s;
+            animation: animatezoom 0.6s
+          }
+          
+          @-webkit-keyframes animatezoom {
+            from {-webkit-transform: scale(0)} 
+            to {-webkit-transform: scale(1)}
+          }
+            
+          @keyframes animatezoom {
+            from {transform: scale(0)} 
+            to {transform: scale(1)}
+          }
+          
+          /* Change styles for span and cancel button on extra small screens */
+          @media screen and (max-width: 300px) {
+            span.psw {
+               display: block;
+               float: none;
+            }
+            .cancelbtn {
+               width: 100%;
+            }
+          }
+          </style>
+          </head>
+          <body>
+          
+          <h2> Login </h2>
+          
+          <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+          
+          <div id="id01" class="modal">
+            
+            <form class="modal-content animate" action="/action_page.php" method="post">
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="IMG/login.png" style="width:200px;height;200px alt="Avatar" class="avatar">
+              </div>
+          
+              <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+          
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                  
+                <button type="submit">Login</button>
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+              </div>
+          
+              <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+              </div>
+            </form>
+          </div>
+          
+          <script>
+          // Get the modal
+          var modal = document.getElementById('id01');
+          
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function(event) {
+              if (event.target == modal) {
+                  modal.style.display = "none";
+              }
+          }
+          </script>
+          
+        </div>
+        
+        <img src="" alt="" style="width:200px;height;150px">
+        <p>Mussum Ipsum, cacilds vidis litro abertis. Detraxit consequat et quo num tendi nada. Copo furadis é disculpa
+          de
+          bebadis, arcu quam euismod magna. A ordem dos tratores não altera o pão duris. Admodum accumsan disputationi
+          eu
+          sit. Vide electram sadipscing et per.</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+  </footer>
+  <div class=" Contato">
+    <h3>#4 - Contato da Mercearia do Zé</h3>
+
+    <div class="whatsapp">
+      <img src="IMG/whatsapp.png" width="25" height="25" />
+      (61)911111111
+    </div>
+
+    <div class="google img">
+      <img src="IMG/google.png" width="30" height="30" />
+      Guara 2 rua 5 em frente a marmita do Neide
+    </div>
+
+
+    <p><a
+        href="https://www.google.com/maps/place/Posto+Rota+406+Sul/@-15.8173654,-47.9130782,14z/data=!4m8!1m2!2m1!1sposto+da+torre!3m4!1s0x935a3bae5988de71:0x7d25e394d2d7815!8m2!3d-15.8173974!4d-47.8955397">Google
+        Maps</a></p>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
